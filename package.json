@@ -1,0 +1,46 @@
+{
+  "name": "figlet-ascii-art",
+  "version": "1.0.0",
+  "description": "Convert text to ASCII art using figlet. Supports JS and CLI.",
+  "main": "index.js",
+  "bin": {
+    "figlet-ascii-art-cli": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umair-ali-bhutto/figlet-ascii-art.git"
+  },
+  "pricing": "Free",
+  "keywords": [
+    "javascript",
+    "umair",
+    "ali",
+    "bhutto",
+    "ascii-art",
+    "figlet",
+    "ascii",
+    "cli",
+    "text",
+    "art"
+  ],
+  "author": "Umair Ali Bhutto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/umair-ali-bhutto/figlet-ascii-art/issues"
+  },
+  "homepage": "https://github.com/umair-ali-bhutto/figlet-ascii-art#readme",
+  "contributors": [
+    {
+      "name": "Umair Ali Bhutto",
+      "githubUsername": "umair-ali-bhutto",
+      "url": "https://github.com/umair-ali-bhutto"
+    }
+  ],
+  "dependencies": {
+    "copy-paste": "^2.1.1",
+    "figlet": "^1.8.1"
+  }
+}
